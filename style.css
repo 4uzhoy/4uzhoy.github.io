@@ -1,0 +1,60 @@
+html,
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    font-size: 14px;
+    background: #0e0e0e;
+    color: #ccc;
+    font-family: monospace;
+}
+
+
+
+.container {
+    max-width: 720px;
+    padding: 1rem 1rem;
+}
+
+.comment {
+    color: #7fc571;
+}
+
+p {
+    color: #61afef;
+    text-decoration: none;
+}
+
+a {
+    color: #3496e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: #7fc571;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+.muted {
+    color: #5c6370;
+    font-size: 0.9em;
+}
+
+ul {
+    padding-left: 1.2rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+pre {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    white-space: pre-wrap;
+}
